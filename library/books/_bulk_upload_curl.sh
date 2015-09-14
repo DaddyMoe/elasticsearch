@@ -1,0 +1,49 @@
+curl -XPUT 'localhost:9200/library/books/_bulk' -d '                                            curl -XPUT 'localhost:9200/library/books/_bulk' -d '
+{"index": {"_id": 1}}
+{"title": "Steve Jobs: The Exclusive Biography","author": {"firstname": "Walter","lastname": "Isaacson"},"price": 12.99,"rrp": 19.95,"format": "Hardcover","publisher_date": "2011-10-24"}
+{"index": {"_id": 2}}
+{"title": "Steve Jobs: The Exclusive Biography","author": {"firstname": "Walter","lastname": "Isaacson"},"price": 7.99,"rrp": 10.99,"format": "Kindle","publisher_date": "2011-10-24"}
+{"index": {"_id": 3}}
+{"title": "The Phoenix Project: A Novel about IT, DevOps, and Helping Your Business ","author": {"firstname": "Gene","lastname": "Kim"},"price": 13.99,"rrp": 16.99,"format": "Hardcover","publisher_date": "2014-10-16"}
+{"index": {"_id": 4}}
+{"title": "The Phoenix Project: A Novel about IT, DevOps, and Helping Your Business ","author": {"firstname": "Gene","lastname": "Kim"},"price": 4.99,"rrp": 6.99,"format": "Kindle","publisher_date": "2014-10-16"}
+{"index": {"_id": 5}}
+{"title": "The Goal: A Process of Ongoing Improvement","author": {"firstname": "Eliyahu M","lastname": "Goldratt"},"price": 16.99,"rrp": 23.99,"format": "Hardcover","publisher_date": "2004-11-17"}
+{"index": {"_id": 6}}
+{"title": "The Goal: A Process of Ongoing Improvement","author": {"firstname": "Eliyahu M","lastname": "Goldratt"},"price": 6.99,"rrp": 8.99,"format": "Kindle","publisher_date": "2004-11-17"}
+{"index": {"_id": 7}}
+{"title": "Spring in Action","author": {"firstname": "Craig","lastname": "Walls"},"price": 24.99,"rrp": 26.99,"format": "Hardcover","publisher_date": "2014-11-28"}
+{"index": {"_id": 8}}
+{"title": "Spring in Action - 4th","author": {"firstname": "Craig","lastname": "Walls"},"price": 14.99,"rrp": 18.99,"format": "Kindle","publisher_date": "2014-11-28"}
+{"index": {"_id": 9}}
+{"title": "Spring Boot Essentials: Building Applications and Microservices in the Cloud","author": {"firstname": "Josh","lastname": "Long"},"price": 26.99,"rrp": 27.99,"format": "Hardcover","publisher_date": "2015-12-25"}
+{"index": {"_id": 10}}
+{"title": "Test Driven Development","author": {"firstname": "Kent","lastname": "Beck"},"price": 22.99,"rrp": 27.99,"format": "Hardcover","publisher_date": "2002-11-08"}
+{"index": {"_id": 11}}
+{"title": "Test Driven Development","author": {"firstname": "Kent","lastname": "Beck"},"price": 24.99,"rrp": 29.99,"format": "Paperback","publisher_date": "2002-11-08"}
+{"index": {"_id": 12}}
+{"title": "Patterns of Enterprise Application Architecture","author": {"firstname": "Martin","lastname": "Fowler"},"price": 32.99,"rrp": 35.99,"format": "Hardcover","publisher_date": "2002-11-05"}
+{"index": {"_id": 13}}
+{"title": "Patterns of Enterprise Application Architecture","author": {"firstname": "Martin","lastname": "Fowler"},"price": 32.99,"rrp": 35.99,"format": "Paperback","publisher_date": "2002-11-05"}
+{"index": {"_id": 14}}
+{"title": "Patterns of Enterprise Application Architecture","author": {"firstname": "Martin","lastname": "Fowler"},"price": 30.99,"rrp": 32.99,"format": "Kindle","publisher_date": "2002-11-05"}
+{"index": {"_id": 15}}
+{"title": "Release It!: Design and Deploy Production-Ready Software","author": {"firstname": "Michael T.","lastname": "Nygard"},"price": 22.99,"rrp": 24.99,"format": "Paperback","publisher_date": "2007-04-09"}
+{"index": {"_id": 16}}
+{"title": "Release It!: Design and Deploy Production-Ready Software","author": {"firstname": "Michael T.","lastname": "Nygard"},"price": 21.97,"rrp": 22.97,"format": "Kindle","publisher_date": "2007-04-09"}
+{"index": {"_id": 17}}
+{"title": "Working Effectively with Legacy Code","author": {"firstname": "Michael","lastname": "Feathers"},"price": 27.97,"rrp": 28.97,"format": "Paperback","publisher_date": "2004-09-22"}
+{"index": {"_id": 18}}
+{"title": "Working Effectively with Legacy Code","author": {"firstname": "Michael","lastname": "Feathers"},"price": 25.97,"rrp": 26.97,"format": "Kindle","publisher_date": "2004-09-22"}
+{"index": {"_id": 19}}
+{"title": "Head First Design Patterns","author": {"firstname": "Eric","lastname": "Freeman"},"price": 25.97,"rrp": 28.97,"format": "Paperback","publisher_date": "2004-11-04"}
+{"index": {"_id": 20}}
+{"title": "Head First Design Patterns","author": {"firstname": "Eric","lastname": "Freeman"},"price": 24.97,"rrp": 28.97,"format": "Kindle","publisher_date": "2004-11-04"}
+{"index": {"_id": 21}}
+{"title": "Head First Design Patterns","author": {"firstname": "Eric","lastname": "Freeman"},"price": 25.97,"rrp": 29.97,"format": "Paperback","publisher_date": "2004-11-04"}
+{"index": {"_id": 22}}
+{"title": "The Clean Coder: A Code of Conduct for Professional Programmers","author": {"firstname": "Robert C.","lastname": "Martin"},"price": 27.97,"rrp": 28.97,"format": "Paperback","publisher_date": "2004-11-04"}
+{"index": {"_id": 23}}
+{"title": "The Clean Coder: A Code of Conduct for Professional Programmers","author": {"firstname": "Robert C.","lastname": "Martin"},"price": 20.97,"rrp": 25.97,"format": "Kindle","publisher_date": "2004-11-04"}
+{"index": {"_id": 23}}
+{"title": "The Clean Coder: A Code of Conduct for Professional Programmers","author": {"firstname": "Robert C.","lastname": "Martin"},"price": 26.97,"rrp": 27.97,"format": "Hardcover","publisher_date": "2004-11-04"}'
